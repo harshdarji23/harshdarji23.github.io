@@ -1,6 +1,6 @@
-# Khuram Niaz Profile and Portfolio Site
+# Hars Darji Profile and Portfolio Site
 
-Demo: [https://gsync.github.io](https://gsync.github.io)
+
 
 The portfolio site was created using the theme:
 
