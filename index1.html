@@ -38,11 +38,23 @@ layout: default
 <div class="col-md-3 widget-profil">
 <div class="row">
 
-    <!-- Profile Image -->
+  <!-- Profile Image -->
     <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
-    	                                 
+    	 
+		 
+                                
          <div class="image-holder one" id="pic_prof_1" style="display:block">
-             <img class="head-image up circle" src="images/img/khuram-profile.jpg" width="150" height="150" alt="" />
+        
+                <img class="head-image up circle" src="images/img/up.png" width="150" height="150" alt="" />
+                <img class="head-image up-left circle" src="images/img/upleft.png" width="150" height="150" alt="" />
+                <img class="head-image left circle" src="images/img/left.png" width="150" height="150" alt="" />
+                <img class="head-image down-left circle" src="images/img/downleft.png" width="150" height="150" alt="" />
+                <img class="head-image down circle" src="images/img/down.png" width="150" height="150" alt="" />
+                <img class="head-image down-right circle" src="images/img/downright.png" width="150" height="150" alt="" />
+                <img class="head-image right circle" src="images/img/right.png" width="150" height="150" alt="" />
+                <img class="head-image up-right circle" src="images/img/upright.png" width="150" height="150" alt="" />
+                <img class="head-image front circle" src="images/img/front.png" width="150" height="150" alt="" />
+                
         </div>
         
         <!-- style for simple image profile -->		
@@ -56,9 +68,9 @@ layout: default
     <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
         <!-- Profile info -->
         <div id="profile_info">
-            <h1 id="name" class="transition-02">KHURAM NIAZ</h1>
-            <h4 class="line">FULL STACK DEVELOPER &amp GIS PROFESSIONAL</h4>
-            <h6><span class="fa fa-map-marker"></span> {{ site.location }}</h6>
+            <h1 id="name" class="transition-02">Harsh Darji</h1>
+            <h4 class="line">INCOMING GRADUATE STUDENT AT SYRACUSE UNIVERSITY &amp DATA ANALYST ENTHUSIAST</h4>
+            <h6><span class="fa fa-map-marker"></span> Mumbai, IND</h6>
         </div>
         <!-- End Profile info -->  
     	
@@ -66,7 +78,7 @@ layout: default
         <!-- Profile Description -->
         <div id="profile_desc">
             <p>
-            	GIS Professional with a passion for web technologies
+            	Data Analyst Enthusiast with a passion for science and technologies.
             </p>
             
         </div>
@@ -77,11 +89,13 @@ layout: default
          <div id="profile_social">
             <h6>My Social Profiles</h6>
 			
-            <a href="https://github.com/Gsync" target="_blank"><i class="fa fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/khuramniaz/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a href="https://twitter.com/knshaikh" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.freecodecamp.org/gsync" target="_blank"><i class="fa fa-free-code-camp"></i></a>
-            <a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/harshdarji23/" target="_blank"><i class="fa fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/harsh-darji-7173a2102/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/harshdarji_23" target="_blank"><i class="fa fa-twitter"></i></a>
+             <!-- <a href="https://www.freecodecamp.org/gsync" target="_blank"><i class="fa fa-free-code-camp"></i></a> -->
+            <a href="https://www.facebook.com/harsh.darji.12""><i class="fa fa-facebook"></i></a>
+			 <a href="https://www.instagram.com/harshdarji_23/""><i class="fa fa-instagram"></i></a>
+            <!--<a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a> -->
             <div class="clear"></div>
         </div>
         <!-- End Name -->  
@@ -104,16 +118,22 @@ layout: default
 <div id="verticalTab">
 
     <ul class="resp-tabs-list">
-        
+        <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">			
+            <span class="tite-list">profile</span>
+            <i class="fa fa-user icon_menu icon_menu_active"></i>
+        </li> 
+		
+		<li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume"> 
+            <span class="tite-list">resume</span>
+            <i class="fa fa-tasks icon_menu"></i>
+        </li> 
+		
         <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio"> 
             <span class="tite-list">portfolio</span>
             <i class="fa fa-briefcase icon_menu"></i>
         </li>
-
-        <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">			
-            <span class="tite-list">profile</span>
-            <i class="fa fa-user icon_menu icon_menu_active"></i>
-        </li>
+	
+        
 
         <!--li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume"> 
             <span class="tite-list">resume</span>
@@ -139,10 +159,13 @@ layout: default
 
 <!-- resp-tabs-container --> 
 <div class="resp-tabs-container">
+    {% include /profile.html %}
+	{% include /cv.html %}
 
     {% include /portfolio.html %}
+
     
-    {% include /profile.html %}
+    
 
 </div>
 <!-- End #resp-tabs-container --> 
