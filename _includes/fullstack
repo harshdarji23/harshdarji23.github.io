@@ -1,0 +1,212 @@
+<!-- profile -->
+<div id="profile" class="content_2">
+    <!-- .title -->
+    <h1 class="h-bloc">Profile - About Me</h1>
+
+    <div class="row top-p">
+        <div class="col-md-6 profile-l">
+
+            <!--About me-->
+            <div class="title_content">
+                <div class="text_content">HARSH DARJI</div>
+                <div class="clear"></div>
+            </div>
+
+            <ul class="about">
+
+                <li>
+                    <i class="glyphicon glyphicon-user"></i>
+                    <label>Name</label>
+                    <span class="value">Harsh Darji</span>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                    <i class="glyphicon glyphicon-map-marker"></i>
+                    <label>Adress</label>
+                    <span class="value">Syracuse, New York</span>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                    <i class="glyphicon glyphicon-envelope"></i>
+                    <label>Email</label>
+                    <span class="value"><a href="hrdarji@syr" target="hrdarji@syr.edu">hrdarji@syr.edu</span>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                <i class="glyphicon glyphicon-phone"></i>
+                <label>Mobile</label>
+                <span class="value">+1 (315)-378-6124</span>
+                <div class="clear"></div>
+            </li>
+
+              <li>
+                <i class="glyphicon glyphicon-globe"></i>
+                <label>Website:</label>
+                <span class="value"><a href="https://harshdarji23.github.io/" target="_blank">harshdarji23.github.io</a></span>
+                <div class="clear"></div>
+            </li>
+
+            </ul>
+
+
+            <p style="margin-bottom:20px">
+                <i class="fa fa-quote-left"></i>
+                I am a Data Scientist with experience in working with business and technology leaders. 
+		    During my Data Analytics Internship at Sinclair Broadcast Group, I worked closely with the CIO and Senior Director of Enterprise Data with the sole purpose of detecting the parameters that were leading to declining in the company's overall revenue. 
+		    I successfully developed a customer churn model to find the bad guys!
+            </p>
+<!---
+            <p style="margin-bottom:20px">
+                <i class="fa fa-quote-left"></i>
+             I have a strong predilection towards numbers, infrastructure, and story-telling. When I am not coding, I read alluring stories on Medium or read a fun fact about numbers. Here's one of them:
+
+Do you know what is the best number?
+.
+
+Well, the best number is 73!
+You are probably wondering why?
+So, 73 is the 21st prime number. Its mirror, 37, is the 12th, and its mirror, 21, is the product of multiplying - hang on to your hats - seven and three.
+            </p> --->
+
+        </div>
+        <!-- End left-wrap -->
+
+        <div class="col-md-6 profile-r">
+
+            <div class="cycle-slideshow">
+                <img src="images/img-profile/about_1.jpg" alt="" />
+                <img src="images/img-profile/about_2.png" alt="" />
+                <img src="images/img-profile/about_3.png" alt="" />
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- begin service 
+    <div class="clear"></div>
+    <div class="row" id="services">
+        <div class="col-md-12">
+            <div class="title_content">
+                <div class="text_content">My Expertise</div>
+                <div class="clear"></div>
+            </div>
+
+
+            <div class="col-md-4 pack-service">
+                <div class="service">
+                    <div class="service-icon">
+                        <i class="fa fa-line-chart"></i>
+                    </div>
+                    <div class="service-detail">
+                         <h6>Data Visualization</h6>
+                        <p>Tableau software - an interactive data visualization product focused on business intelligence and Microsoft Excel and Python Data Visualization (libraries) such as
+                            Seaborn,Matplotlib,ggplot,Plotly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pack-service">
+                <div class="service">
+                    <div class="service-icon">
+                        <i class="fa fa-level-up"></i>
+                    </div>
+                    <div class="service-detail">
+                         <h6>Predictive Analytics</h6>
+                        <p>Anaconda -an open source package management and deployment tool,Exploratory analysis in Python using Pandas, Data Munging and building a predictive model in python using algorithms like
+						Logistic regression, Decision tree & Random Forest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pack-service">
+                <div class="service">
+                    <div class="service-icon">
+                        <i class="fa fa-bar-chart-o"></i>
+                    </div>
+                    <div class="service-detail">
+                        <h6>Project Management</h6>
+                        <p>Basecamp-a Project mangement tool. Experience in software project management in an enterprise evnironment including business analysis
+                            and service management</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+
+
+
+    <!-- service 2 
+    <div class="clear"></div>
+    <div class="border-list"></div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bottom-p">
+                <div class="title_content">
+                    <div class="text_content">Core Technical Skills</div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapse_tabs">
+                                    Data Visualization
+                                    <i class="glyphicon glyphicon-chevron-up" style="float: right;font-size: 13px;"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <i class="fa fa-arrow-circle-right"></i>  Languages -SQL, Python | Libraries -Matplotlib, ggplot , Seaborn,
+                                Plotly |Tools -Anaconda, Tableau, Ms-Excel |
+                                 Databases -PostgreSQL, Mongodb, MySQL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapse_tabs">
+                                    Data Analysis
+                                    <i class="glyphicon glyphicon-chevron-down" style="float: right;font-size: 13px;"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <i class="fa fa-arrow-circle-right"></i>Data Collection (Web scraping) | Exploratory Data Analysis | Predictive Modelling
+                                | Data Management | Data Quality Assurance | Language -Python | Libraries -Pandas, Numpy, Sckit-Learn, SciPy
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapse_tabs">
+                                    Software Project Management
+                                    <i class="glyphicon glyphicon-chevron-down" style="float: right;font-size: 13px;"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <i class="fa fa-arrow-circle-right"></i> Requirement Analysis | PMI Methodology | Service Management | Research Methods
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end service 2 -->
+
+    <div class="clear"></div>
+</div>
+<!-- End .profile -->
